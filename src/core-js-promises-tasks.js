@@ -143,7 +143,7 @@ function queuPromises(promises) {
         if (index === promises.length - 1) {
           setTimeout(() => {
             resolve(res.join(''));
-          });
+          }, 50);
         }
       });
     });
